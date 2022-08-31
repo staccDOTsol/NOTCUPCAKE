@@ -1,0 +1,12 @@
+var h = exports;
+h.utils = require('./983');
+h.common = require('./984');
+h.sha = require('./985');
+h.ripemd = require('./992');
+h.hmac = require('./993');
+h.sha1 = h.sha.sha1;
+h.sha256 = h.sha.sha256;
+h.sha224 = h.sha.sha224;
+h.sha384 = h.sha.sha384;
+h.sha512 = h.sha.sha512;
+h.ripemd160 = h.ripemd.ripemd160;
